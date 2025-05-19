@@ -1,0 +1,46 @@
+.topBar{
+    width: 100%vh;
+    height: 75px;
+    background-color: rgb(97, 33, 129);
+    outline: 5px black solid;
+    display: flex;
+}
+
+.tbleft{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tbright{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    display: inline-block;
+    align-content: center;
+}
+.search{
+    width: 150px;
+    height: 30px;
+    margin: auto;
+}
+.search input{
+    height: 100%;
+    width: 115%;
+}
+.icon i:hover{
+    color: rgb(50, 50, 50);
+}
+.icon i:active{
+    color: rgb(100,100,100);
+}
+
+.ender{
+    margin: auto;
+}
