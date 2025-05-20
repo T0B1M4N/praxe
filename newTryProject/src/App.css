@@ -52,6 +52,8 @@
 .carText{
   padding: 20px;
   font-size: 25px;
+  width: 30%;
+  margin: auto;
 }
 .Menu{
   height: 400px;
@@ -131,6 +133,7 @@ button{
 @keyframes button-tilt {
   from {
     transform: rotate(-5deg);
+    transform: scale(1.2);
   }
   to {
     transform: rotate(5deg);
