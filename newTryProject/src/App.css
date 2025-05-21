@@ -7,10 +7,13 @@
 .TopBar{
   width: 100%;
   background-color: rgb(110, 110, 110);
-  height: 11vh;
+  height: 12vh;
   display: flex;
   box-shadow: 0px 0px 50px black;
   justify-content: space-around;
+  align-items:flex-end;
+  position:fixed;
+  z-index: 100;
 }
 
 .logo {
@@ -44,6 +47,7 @@
 
 .card {
   padding: 20px;
+  padding-top: 15vh;
 }
 
 .read-the-docs {
@@ -69,6 +73,8 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
+  z-index: 101;
+  position: fixed;
 }
 .MenuOption{
   box-shadow: 0px 0px 10px black;
@@ -98,7 +104,6 @@
 }
 .MenuButton:active{
   background-color: rgba(255, 255, 255,0.5);
-  transition: background-color 0.05s;
 }
 .carbox{
   padding: 30px;
